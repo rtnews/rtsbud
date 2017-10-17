@@ -8,4 +8,5 @@ del /S /Q /F D:\rtsnews\rtsfnt\node_modules\@nebular\auth
 del /S /Q /F D:\rtsnews\rtsfnt\node_modules\@nebular\icons
 del /S /Q /F D:\rtsnews\rtsfnt\node_modules\@nebular\theme
 xcopy /S /E D:\rtsnews\rtsflb\src\.lib D:\rtsnews\rtsfnt\node_modules\@nebular
+pause
 @echo on
