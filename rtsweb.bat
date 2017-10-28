@@ -12,6 +12,7 @@ if not exist Upload (
 	cd Upload
 	mkdir ImageNews
 	mkdir NewsTmp
+	mkdir Clerk
 )
 pause
 @echo on
