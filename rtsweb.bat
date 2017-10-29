@@ -9,6 +9,7 @@ msbuild rtsweb.sln /p:DeployOnBuild=true /p:PublishProfile=FolderProfile.pubxml 
 xcopy /S /E /Y D:\rtsnews\rtsweb\rtsweb\Html D:\rtsnews\publish\rtsweb
 cd D:\rtsnews\publish\rtsweb
 if not exist Upload (
+	mkdir Upload
 	cd Upload
 	mkdir ImageNews
 	mkdir NewsTmp
